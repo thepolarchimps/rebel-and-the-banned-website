@@ -1,0 +1,159 @@
+.w-layout-grid {
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  display: grid;
+}
+
+body {
+  color: #333;
+  font-family: Xtypewriter, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.body {
+  background-color: #000;
+}
+
+.icomoon {
+  margin-right: 10px;
+  font-family: Icomoon, sans-serif;
+}
+
+.icomoon.link {
+  font-size: 48px;
+  line-height: 48px;
+}
+
+.image {
+  background-color: #fff;
+}
+
+.grid {
+  grid-column-gap: 50px;
+  grid-row-gap: 40px;
+  grid-template-rows: auto;
+}
+
+.section {
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.section.black {
+  color: #fff;
+  background-color: #000;
+}
+
+.container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.link-ting {
+  color: #000;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 30px;
+  line-height: 30px;
+  text-decoration: none;
+  transition: transform .2s;
+  display: flex;
+}
+
+.link-ting:hover {
+  transform: scale(1.05);
+}
+
+.link-ting.white {
+  color: #fff;
+}
+
+.heading {
+  border-bottom: 4px solid #fff;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  font-size: 40px;
+}
+
+.logo {
+  max-width: 150px;
+}
+
+.header {
+  padding-top: 40px;
+}
+
+.header-container-fle {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.header-h1 {
+  color: #fff;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 991px) {
+  .container {
+    max-width: 728px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .div-block {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .section {
+    min-height: auto;
+  }
+}
+
+#w-node-_27bbd205-cb7a-f700-d08b-a2fa0d49ab69-b23aed0c {
+  align-self: center;
+  justify-self: center;
+}
+
+
+@font-face {
+  font-family: 'Icomoon';
+  src: url('../fonts/icomoon.eot') format('embedded-opentype'), url('../fonts/icomoon.woff') format('woff'), url('../fonts/icomoon.ttf') format('truetype'), url('../fonts/icomoon.svg') format('svg');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Xtypewriter';
+  src: url('../fonts/XTypewriter-Regular.ttf') format('truetype'), url('../fonts/XTypewriter-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Xtypewriter';
+  src: url('../fonts/XTypewriter-Bold.ttf') format('truetype'), url('../fonts/XTypewriter-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
